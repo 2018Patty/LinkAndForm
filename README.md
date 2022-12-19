@@ -8,9 +8,9 @@
 
 ### Absolute Path :การอ้างอิงตำแหน่งไฟล์ จากตำแหน่งที่เก็บจริงใน Drive
 การอ้างอิงตำแหน่งไฟล์จริงตามที่เก็บใน drive ตามตัวอย่างโครงสร้างไฟล์ เช่น ไฟล์เก็บไว้ใน folder c:/>week3LinkandForm/
-c:/>LinkandForm/contact.html
-c:/>LinkandForm/products/productCatalog.html
-c:/>LinkandForm/index.html
+- c:/>LinkandForm/contact.html
+- c:/>LinkandForm/products/productCatalog.html
+- c:/>LinkandForm/index.html
 
 **ข้อเสีย การอ้างอิงระบุตำแหน่งไฟล์จริง ทำให้เมื่อมีการย้ายตำแหน่งการเก็บไฟล์ ต้องตามแก้ไขทุกครั้ง**
 
@@ -23,7 +23,7 @@ c:/>LinkandForm/index.html
 หรือต้องการสร้างลิงค์จากไฟล์ index.html ไปยังไฟล์ login.html
 
 ```
-<a href=l.html”> Login </a>
+<a href=login.html”> Login </a>
 ```
 
 เนื่องจากไฟล์ index.html และ login.html เก็บอยู่ในตำแหน่งเดียวกัน สามารถเรียกชื่อไฟล์ได้เลย
